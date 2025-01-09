@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two-Wheel Mechanical Services</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* Navbar Styling */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('bike-repair.jpg') no-repeat center center/cover;
+            color:black;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        /* Services Section */
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 40px 10%;
+            text-align: center;
+        }
+
+        .services div {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .services div h3 {
+            margin-bottom: 15px;
+        }
+
+        /* Contact Form Section */
+        .contact-form {
+            background-color: #333;
+            color: #fff;
+            padding: 40px 10%;
+            text-align: center;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        .contact-form button {
+            padding: 15px 30px;
+            background-color: #4CAF50;
+            border: none;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                padding: 10px;
+            }
+
+            .hero h1 {
+                font-size: 30px;
+            }
+
+            .hero p {
+                font-size: 14px;
+            }
+
+            .services {
+                padding: 20px 5%;
+            }
+
+            .contact-form {
+                padding: 20px 5%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">Two-Wheel Mechanical<br>PETROL HEAD WORKSHOP(kolichal)</div>
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section (Banner) -->
+    <section class="hero">
+        <h1>Welcome to Two-Wheel Mechanical Services</h1>
+        <p>Your trusted mechanic for all bike repairs and services</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div>
+            <h3>Motorcycle Repair</h3>
+            <p>We offer comprehensive repair services for all types of motorcycles.</p>
+        </div>
+        <div>
+            <h3>Bike Tuning</h3>
+            <p>Get your bike tuned to perfection for the best riding experience.</p>
+        </div>
+        <div>
+            <h3>Parts Replacement</h3>
+            <p>We provide high-quality parts replacement for all bike models.</p>
+        </div>
+        <div>
+            <h3>Preventive Maintenance</h3>
+            <p>Keep your bike running smoothly with our preventive maintenance plans.</p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact-form">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="arun subhash" required>
+            <input type="email" placeholder="arunsubhash97@gamil.com" required>
+            <textarea placeholder="949711159" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Two-Wheel Mechanical Services | <a href="#contact">Contact</a></p>
+    </footer>
+
+</body>
+</html>
